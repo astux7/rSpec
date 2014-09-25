@@ -4,7 +4,7 @@ rSpec
 
 pending -> can be used in the middle of the prase: it 'should ... ' pending end
 
-
+```
 module Codebreaker
   class Game
     def initialize(output)
@@ -15,8 +15,8 @@ module Codebreaker
     end
   end
 end
-
-
+```
+```
 module Codebreaker
   describe Game do
     describe "#start" do
@@ -36,4 +36,4 @@ module Codebreaker
   end
 end
 
-
+```
